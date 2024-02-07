@@ -1,0 +1,19 @@
+<!ELEMENT fandango (theater+)>
+<!ELEMENT theater (name, address, movies)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title, showtimes, rating, genre, duration, format, image)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT showtimes (showtime+)>
+<!ELEMENT showtime (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT duration (hour, minute)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+<!ELEMENT format (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+
+<!ATTLIST movie id CDATA #REQUIRED>
+<!ATTLIST theater id CDATA #REQUIRED>

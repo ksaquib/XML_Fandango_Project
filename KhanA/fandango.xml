@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fandango.xsl"?>
+<?xml-model href="fandango.dtd" type="application/xml-dtd"?>
+<fandango>
+        <theater id="1">
+            <name>Cinemark Tinseltown Rochester and IMAX</name>
+            <address>2291 Buffalo Road, Rochester, NY 14624</address>
+            <movies>
+                <movie id="1">
+                    <title>Fear (2023)</title>
+                    <showtimes>
+                        <showtime>12:15p</showtime>
+                        <showtime>7:45p</showtime>
+                        <showtime>10:15p</showtime>
+                        <showtime>5:15p</showtime>
+                        <showtime>2:45p</showtime>
+                    </showtimes>
+                    <rating>R</rating>
+                    <genre>Horror, Mystery &amp; Thriller</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>25</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>fear.png</image>
+                </movie>
+                <movie id="2">
+                    <title>Infinity Pool (2023)</title>
+                    <showtimes>
+                        <showtime>1:25p</showtime>
+                        <showtime>4:20p</showtime>
+                        <showtime>7:15p</showtime>
+                        <showtime>10:15p</showtime>
+                    </showtimes>
+                    <rating>R</rating>
+                    <genre>Horror, Mystery &amp; Thriller, Sci-Fi/Fantasy</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>25</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>infinity_pool.png</image>
+                </movie>
+                <movie id="3">
+                    <title>80 For Brady Ladies Night Out (2023)</title>
+                    <showtimes>
+                        <showtime>7:00p</showtime>
+                    </showtimes>
+                    <rating>PG-13</rating>
+                    <genre>Comedy, Concert/Special Events</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>38</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>Ladies_Night_Out.png</image>
+                </movie>   
+            </movies>
+        </theater>
+        <theater id="2"> 
+            <name>AMC Webster 12</name>
+            <address>2190 Empire Blvd, Webster, NY 14580</address>
+            <movies>
+                <movie id="4">
+                    <title>Missing (2023)</title>
+                    <showtimes>
+                        <showtime>1:45p</showtime>
+                        <showtime>4:45p</showtime>
+                        <showtime>7:30p</showtime>
+                    </showtimes>
+                    <rating>PG-13</rating>
+                    <genre>Drama, Mystery &amp; Thriller</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>51</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>missing.png</image>
+                </movie>
+                <movie id="5">
+                    <title>House Party (2023)</title>
+                    <showtimes>
+                        <showtime>2:45p</showtime>
+                        <showtime>8:00p</showtime>
+                    </showtimes>
+                    <rating>R</rating>
+                    <genre>Comedy</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>41</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>house_party.png</image>        
+                </movie>
+                <movie id="6">
+                    <title>Plane (2023)</title>
+                    <showtimes>
+                        <showtime>2:15p</showtime>
+                        <showtime>5:00p</showtime>
+                        <showtime>7:45p</showtime>
+                    </showtimes>
+                    <rating>R</rating>
+                    <genre>Action/Adventure, Mystery &amp; Thriller, Suspense/Thriller</genre>
+                    <duration>
+                        <hour>1</hour>
+                        <minute>39</minute>
+                    </duration>
+                    <format>Standard</format>
+                    <image>plane.png</image>
+                </movie>
+            </movies>
+    </theater>
+</fandango>
